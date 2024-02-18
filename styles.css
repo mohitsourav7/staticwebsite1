@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+    /* font-family: "Roboto Mono", monospace; */
+}
+
+#services:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.item:hover{
+    background-color: azure;
+}
+.hero-image{
+    /* background: linear-gradient(to right, rgb(75, 121, 161), rgb(40, 62, 81)); */
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../staticwebsite1/Assests/image-1.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    /* position: static; */
+}
+.tagname{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style: normal;
+}
+.heading{
+    text-decoration: underline;
+}
+.content{
+    font-weight: bold;
+    padding: 2.5rem;
+    font-size: 1.3rem;
+    border: 2px solid black ;
+    border-radius: 8px;
+}
